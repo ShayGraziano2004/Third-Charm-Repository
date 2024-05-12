@@ -121,6 +121,7 @@ sources/5 = SubResource("TileSetAtlasSource_q7loj")
 sources/6 = SubResource("TileSetAtlasSource_xa058")
 
 [node name="world" type="Node2D"]
+y_sort_enabled = true
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_13hg0")
