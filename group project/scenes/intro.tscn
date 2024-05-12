@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://lhq31gpjrsu7"]
+
+[ext_resource type="Script" path="res://intro.gd" id="1_8jpui"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_h7nqn"]
+
+[node name="Intro" type="Node2D"]
+script = ExtResource("1_8jpui")
+
+[node name="enter" type="Button" parent="."]
+offset_left = 48.0
+offset_top = 370.0
+offset_right = 216.0
+offset_bottom = 430.0
+text = "Enter the cave"
+
+[node name="exit" type="Button" parent="."]
+offset_left = 558.0
+offset_top = 376.0
+offset_right = 726.0
+offset_bottom = 436.0
+text = "Exit"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 48.0
+offset_top = 27.0
+offset_right = 734.0
+offset_bottom = 350.0
+text = "Your dwarven village has tapped out the local mine. :( 
+But wait!
+An earthquake hits, and you find a newly revealed cave system, only it goes deeper than the old mine. The stories tell about it being dangerous to explore too deep of a mine. Strange, creatures guard the Your village desparately needs the ores and jewels to trade. Otherwise, you may have to abandon this village in search of another.
+treasures to be found. 
+Do you risk your life with only your pickaxe to defend you? "
+label_settings = SubResource("LabelSettings_h7nqn")
+autowrap_mode = 2
+
+[connection signal="pressed" from="enter" to="." method="_on_enter_pressed"]
+[connection signal="pressed" from="exit" to="." method="_on_exit_pressed"]
