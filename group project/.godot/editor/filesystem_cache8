@@ -1,0 +1,33 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1715557408
+icon.svg::CompressedTexture2D::4172110734183584805::1715557335::1715557416::1::::<><>::
+::res://hitboxes/::1715557335
+attack_hitbox.tres::RectangleShape2D::1892441720115288236::1715557335::0::1::::<><>::
+::res://scenes/::1715557335
+coalslaw_the_unreasonable.tscn::PackedScene::1711282300958608235::1715557335::0::1::::<><>::uid://dwvaqm5g0msj6::::res://sprites/Coalslaw_the_Unreasonable_sprite_sheet.png<>res://scripts/coalslaw_the_unreasonable.gd<>uid://dionmluf35xjc::::res://sprites/heart_full.png
+end_lose.tscn::PackedScene::5717692503388100387::1715557335::0::1::::<><>::res://end_lose.gd<>uid://bbhwhfhv2cykc::::res://art/dead_slaw.png
+end_win.tscn::PackedScene::7931849419438640536::1715557335::0::1::::<><>::res://end_win.gd
+intro.tscn::PackedScene::787550773980553480::1715557335::0::1::::<><>::res://intro.gd
+Rock 3.png::CompressedTexture2D::6961782310314102129::1715557335::1715557413::1::::<><>::
+slime.tscn::PackedScene::210104677632851469::1715557335::0::1::::<><>::res://scripts/slime.gd<>uid://4nyrhw7tmafw::::res://sprites/Slime_sprite_sheet.png
+world.tscn::PackedScene::881289173110843077::1715557335::0::1::::<><>::uid://dvoexwmjive52::::res://sprites/Tileset1.png<>uid://kcvsgwvakk4t::::res://sprites/Tileset2.png<>uid://dwk0p34pe202f::::res://sprites/blackcavepool.png<>uid://ce833u8j887he::::res://sprites/Rock 1.png<>uid://x5o2i4kxlrkm::::res://sprites/stalagmite 1.png<>uid://dpxfwywt3x8wa::::res://sprites/stalagmite 2.png<>uid://dd8almo5j5bu0::::res://sprites/Rock 2.png<>uid://ym7tmkwmnsyl::::res://scenes/coalslaw_the_unreasonable.tscn<>uid://c81nmx8wqs5j::::res://scenes/slime.tscn<>uid://c6glsjm0wsstt::::res://scenes/Rock 3.png
+::res://scripts/::1715557335
+coalslaw_the_unreasonable.gd::GDScript::-1::1715557335::0::1::::<>CharacterBody2D<>::
+end_lose.gd::GDScript::-1::1715557335::0::1::::<>Node2D<>::
+end_win.gd::GDScript::-1::1715557335::0::1::::<>Node2D<>::
+intro.gd::GDScript::-1::1715557335::0::1::::<>Node2D<>::
+slime.gd::GDScript::-1::1715557335::0::1::::<>CharacterBody2D<>::
+::res://sprites/::1715557335
+blackcavepool.png::CompressedTexture2D::8725606616525448247::1715557335::1715557413::1::::<><>::
+Coalslaw_the_Unreasonable_sprite_sheet.png::CompressedTexture2D::8746797793584597193::1715557335::1715557413::1::::<><>::
+dead_slaw.png::CompressedTexture2D::2472408720428461654::1715557335::1715557413::1::::<><>::
+heart_empty.png::CompressedTexture2D::1408537969443421254::1715557335::1715557413::1::::<><>::
+heart_full.png::CompressedTexture2D::7750485448091962336::1715557335::1715557414::1::::<><>::
+Rock 1.png::CompressedTexture2D::5123472387749003114::1715557335::1715557415::1::::<><>::
+Rock 2.png::CompressedTexture2D::7437973344894061061::1715557335::1715557415::1::::<><>::
+Rock 3.png::CompressedTexture2D::6961782310314102129::1715557335::1715557415::1::::<><>::
+Slime_sprite_sheet.png::CompressedTexture2D::2063801345757438544::1715557335::1715557415::1::::<><>::
+stalagmite 1.png::CompressedTexture2D::1677173456102372332::1715557335::1715557415::1::::<><>::
+stalagmite 2.png::CompressedTexture2D::8259919561870637768::1715557335::1715557415::1::::<><>::
+Tileset1.png::CompressedTexture2D::8662414171737495279::1715557335::1715557416::1::::<><>::
+Tileset2.png::CompressedTexture2D::707324743107174789::1715557335::1715557416::1::::<><>::

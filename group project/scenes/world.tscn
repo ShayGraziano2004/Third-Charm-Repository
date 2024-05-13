@@ -140,9 +140,6 @@ size = Vector2(83, 3612)
 
 [node name="world" type="Node2D"]
 
-[node name="coalslaw_the_unreasonable" parent="." instance=ExtResource("8_s87gq")]
-position = Vector2(567, 321)
-
 [node name="TileMap" type="TileMap" parent="."]
 show_behind_parent = true
 tile_set = SubResource("TileSet_13hg0")
@@ -209,3 +206,6 @@ shape = SubResource("RectangleShape2D_tdxuk")
 [node name="CollisionShape2D_right" type="CollisionShape2D" parent="."]
 position = Vector2(6973, 1763)
 shape = SubResource("RectangleShape2D_tdxuk")
+
+[node name="coalslaw_the_unreasonable" parent="." instance=ExtResource("8_s87gq")]
+position = Vector2(299, 166)

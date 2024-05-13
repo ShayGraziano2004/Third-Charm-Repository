@@ -119,6 +119,7 @@ func _physics_process(delta):
 		heart_1.texture = HEART_EMPTY
 		heart_2.texture = HEART_EMPTY
 		heart_3.texture = HEART_EMPTY
+		get_tree().change_scene_to_file("res://scenes/end_lose.tscn")
 		
 	
 	

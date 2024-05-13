@@ -1,11 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://lhq31gpjrsu7"]
 
-[ext_resource type="Script" path="res://intro.gd" id="1_8jpui"]
+[ext_resource type="Script" path="res://scenes/intro.gd" id="1_pnixn"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_h7nqn"]
 
 [node name="Intro" type="Node2D"]
-script = ExtResource("1_8jpui")
+script = ExtResource("1_pnixn")
 
 [node name="enter" type="Button" parent="."]
 offset_left = 48.0

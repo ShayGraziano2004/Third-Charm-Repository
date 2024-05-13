@@ -1,10 +1,10 @@
 [gd_scene load_steps=3 format=3 uid="uid://cnpxtbs0j04qx"]
 
-[ext_resource type="Script" path="res://end_lose.gd" id="1_lvio7"]
-[ext_resource type="Texture2D" uid="uid://bbhwhfhv2cykc" path="res://art/dead_slaw.png" id="2_b6cy0"]
+[ext_resource type="Script" path="res://scripts/end_lose.gd" id="1_mcelj"]
+[ext_resource type="Texture2D" uid="uid://bbhwhfhv2cykc" path="res://sprites/dead_slaw.png" id="2_b6cy0"]
 
 [node name="end_lose" type="Node2D"]
-script = ExtResource("1_lvio7")
+script = ExtResource("1_mcelj")
 
 [node name="DeadSlaw" type="Sprite2D" parent="."]
 position = Vector2(256, 182)
